@@ -33,7 +33,7 @@ export class Cuenta {
  El saldo actual de la cuenta es = $${this.valorActual}`
     }
     ingresar(cantidad:number): void{
-        if (cantidad <= 0) {
+        if (cantidad <= 0 || cantidad > this.valorActual) {
             console.log("El valor ingresado no es válido");
             
         } else {

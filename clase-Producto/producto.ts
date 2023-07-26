@@ -1,3 +1,16 @@
+/*
+         PRODUCTO
+___________________________
+- id: number
+- nombre: string
+- tipo: string
+- precio: number
+- pais: string
+- cantidad: number
+___________________________
+
+*/
+
 export class Producto {
     private id: number
     private nombre: string

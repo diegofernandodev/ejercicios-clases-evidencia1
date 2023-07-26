@@ -1,3 +1,17 @@
+/*
+         EMPRESA
+___________________________
+- productos: Producto[] = []
+- nit: string
+- nombreE: string
+- direccion: string
+- telefono: string
+___________________________
++ ingresarProducto()
++ contarProductos()
++ sumarPreciosProductos()
+*/
+
 import { Producto } from "./producto"
 
 
